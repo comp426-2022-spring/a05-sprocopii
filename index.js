@@ -6,7 +6,7 @@ const fs = require('fs')
 const minimist = require('minimist')
 const args = minimist(process.argv.slice(2))
 
-const db = require(".src/services/database.js")
+const db = require("./src/services/database.js")
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
