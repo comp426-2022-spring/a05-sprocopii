@@ -12,6 +12,10 @@ div.active {
   display: block;
 }
 
+ul li{
+  display: inline;
+}
+
 img.bigcoin {
   width: 100px;
 }

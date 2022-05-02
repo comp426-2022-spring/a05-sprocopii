@@ -14,7 +14,7 @@ app.use(express.json())
 app.use(express.static('./public'))
 
 args["port"]
-const port = args.port || process.env.PORT || 5000
+const port = args.port || process.env.PORT || 3000
 
 const help = (`
 server.js [options]
